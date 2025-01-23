@@ -1,8 +1,11 @@
 {
+  "type": "module",
+  "packageManager": "pnpm@9.12.3",
   "scripts": {
-    "build": "npx sponsorkit -w 800 --dir . && npx sponsorkit -w 1800 --name sponsors.wide --dir ."
+    "build": "sponsorkit"
   },
   "devDependencies": {
-    "sponsorkit": "^0.3.0"
+    "@types/node": "^22.9.0",
+    "sponsorkit": "^0.16.0"
   }
 }
